@@ -10,7 +10,9 @@ both arms responded, runs pairwise judge, writes:
 Existing v1 outputs (probe_quality.csv) are preserved.
 
 Usage:
-  python -m src.eval.score_run_v2 --latest
+
+    python -m src.eval.score_run_v2 /path/to/run_dir
+    python -m src.eval.score_run_v2 --latest
 """
 
 from __future__ import annotations
