@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or refer to the research it accompanies, please cite both the software (this file) and the paper (see Zenodo DOI when published)."
+title: "Continuants: Toward a Theory of Behavioural Persistence in Long-Running LLM Agents"
+type: software
+authors:
+  - family-names: "Krishnan"
+    given-names: "Prakash"
+    orcid: "https://orcid.org/0009-0007-5481-6178"
+    affiliation: "Independent Researcher"
+license: Apache-2.0
+repository-code: "https://github.com/prakash-krishnan/continuants"
+url: "https://osf.io/vse2f/"
+keywords:
+  - LLM agents
+  - behavioural drift
+  - agent continuity
+  - autonomous AI
+  - pre-registration
+  - replication
+abstract: >-
+  Continuants is a research project investigating whether long-running
+  autonomous LLM agents accumulate behavioural state beyond what context
+  replication captures. The work introduces the concept of agents as
+  continuants (entities that persist through change) and addresses four
+  open questions: distinguishing useful drift from harmful drift,
+  extracting useful learnings across an agent fleet, designing shadow
+  agents for continuity and review, and deciding when a drifted agent
+  should be promoted. This repository holds the experimental code and
+  data; the working paper is deposited on Zenodo with a DOI.

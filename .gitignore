@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Paper artifacts and drafts (not part of code repo)
+HowToWorkOnAResearchPaper.*
+ContinuantsLinkedinPart1.*
+AgentDrift_Plan.md
+ContinuantsPlan.md
+paper/
+linkedin/
+*.docx
+
+# Experiment run artifacts (logs, memory files written by agents)
+experiments/**/runs/
+experiments/drift_study/cross_experiment_figures/
+memory/
+
+# macOS noise
+.DS_Store
+
+# Downloaded datasets — re-fetchable, not committed
+data/
